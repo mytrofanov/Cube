@@ -1,12 +1,12 @@
-let text = 'Im an enthusiastic and detail-oriented Frontend Software Engineer' +
-  ' seeking an entry-level position with Company to use my skills in coding, ' +
-  'troubleshooting complex problems, and assisting in the timely completion of projects.'
+let text = 'About me:'
+let aboutMeItems = 'Married, two kids'
 
 function animateText(id, text, i) {
   document.getElementById(id).innerHTML = text.substring(0, i);
   i++;
 
-  setTimeout("animateText('" + id + "','" + text + "'," + i + ")", 100);
+  setTimeout("animateText('" + id + "','" + text + "'," + i + ")", 300);
 }
 
-
+animateText("about_me", text, 0);
+animateText('about_me_items', aboutMeItems, 0)
