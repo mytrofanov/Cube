@@ -13,8 +13,14 @@
 
 html {
   color: #222;
-  font-size: 1em;
+  font-size: 1.5em;
   line-height: 1.4;
+}
+
+
+.cube {
+  display: block;
+  padding: 200px;
 }
 BODY {
   perspective: 1000px;
@@ -31,7 +37,7 @@ BODY {
 .container {
   border: 2px ;
   transform-style: preserve-3d;
-  animation: rotate 10s infinite linear;
+  animation: rotate 30s infinite linear;
 }
 .container:before,
 .container:after {
@@ -54,35 +60,35 @@ BODY {
   width: 10em;
   height: 10em;
   border: 2px solid white;
-  opacity: .7;
+  opacity: .9;
 }
 
 .back {
   transform: translateZ(-5em);
-  background: url("../img/portrait.jpg") center ;
+  background: url("../img/1615140803665.jpg") center ;
   background-size: cover;
 }
 
 .left {
   transform: translateX(-5em) rotateY(90deg);
-  background: url("../img/portrait.jpg") center ;
+  background: url("../img/1615140803665.jpg") center ;
   background-size: cover;
 }
 
 .right {
   transform: translateX(5em) rotateY(90deg);
-  background: url("../img/portrait.jpg") center ;
+  background: url("../img/wife.jpg") center ;
   background-size: cover;
 }
 .top {
   transform: translateY(-5em) rotateX(90deg);
-  background: url("../img/portrait.jpg") center ;
+  background: url("../img/bloger.jpg") center ;
   background-size: cover;
 }
 
 .bottom {
   transform: translateY(5em) rotateX(90deg);
-  background: url("../img/portrait.jpg") center ;
+  background: url("../img/family.jpg") center ;
   background-size: cover;
 }
 
