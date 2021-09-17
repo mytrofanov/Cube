@@ -12,7 +12,7 @@ function animateText(id, text, i) {
   setTimeout("animateText('" + id + "','" + text + "'," + i + ")", 100);
 }
 
-animateText("about_me", text,0);
+// animateText("about_me", text,0);
 //можно показать весь текст сразу после побуквенного вывода заголовка
 
 
